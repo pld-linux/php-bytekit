@@ -16,7 +16,7 @@ URL:		http://www.bytekit.org/
 BuildRequires:	%{php_name}-devel
 BuildRequires:	rpmbuild(macros) >= 1.666
 %{?requires_php_extension}
-Provides:	php(bytekit)
+Provides:	php(bytekit) = %{version}
 Obsoletes:	php-bytekit < 0.1.1-3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
